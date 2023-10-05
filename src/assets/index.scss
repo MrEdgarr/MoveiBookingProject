@@ -1,0 +1,12 @@
+// SCSS
+@use "scss/global";
+@use "scss/variables";
+
+// LAYOUT
+@use "layouts/TheFooter.scss";
+
+// HOME
+@use "home/Carousel";
+@use "home/Showtime";
+@use "home/News";
+@use "home/Theaters";

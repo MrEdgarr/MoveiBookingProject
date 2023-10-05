@@ -1,0 +1,77 @@
+{
+    "citys": [
+        {
+            "city_id": 1,
+            "city_name": "Hà Nội"
+        },
+        {
+            "city_id": 2,
+            "city_name": "Hồ Chí Minh"
+        }
+    ],
+    "cinemas": [
+        {
+            "cinema_id": 1,
+            "city_id": 1,
+            "cinema_name": "Beta Mỹ Đình",
+            "cinema_address": "Tầng hầm B1, tòa nhà Golden Palace, Đường Mễ Trì, Phường Mễ Trì, Quận Nam Từ Liêm, Hà Nội"
+        },
+        {
+            "cinema_id": 2,
+            "city_id": 1,
+            "cinema_name": "Beta Thanh Xuân",
+            "cinema_address": "Tầng hầm B1, tòa nhà Golden West, Số 2, Lê Văn Thiêm, Thanh Xuân, Hà Nội"
+        },
+        {
+            "cinema_id": 3,
+            "city_id": 2,
+            "cinema_name": "Cinestar Quốc Thanh",
+            "cinema_address": "271 Nguyễn Trãi, P. Nguyễn Cư Trinh, Q.1, Tp. Hồ Chí Minh"
+        },
+        {
+            "cinema_id": 4,
+            "city_id": 2,
+            "cinema_name": "Cinestar Hai Bà Trưng",
+            "cinema_address": "135 Hai Bà Trưng, P. Bến Nghé, Q.1, Tp. Hồ Chí Minh"
+        }
+    ],
+
+    "newData": [
+        {
+            "city_id": 1,
+            "city_name": "Hà Nội",
+            "result": [
+                {
+                    "cinema_id": 1,
+                    "city_id": 1,
+                    "cinema_name": "Beta Mỹ Đình",
+                    "cinema_address": "Tầng hầm B1, tòa nhà Golden Palace, Đường Mễ Trì, Phường Mễ Trì, Quận Nam Từ Liêm, Hà Nội"
+                },
+                {
+                    "cinema_id": 2,
+                    "city_id": 1,
+                    "cinema_name": "Beta Thanh Xuân",
+                    "cinema_address": "Tầng hầm B1, tòa nhà Golden West, Số 2, Lê Văn Thiêm, Thanh Xuân, Hà Nội"
+                }
+            ]
+        },
+        {
+            "city_id": 2,
+            "city_name": "Hồ Chí Minh",
+            "result": [
+                {
+                    "cinema_id": 3,
+                    "city_id": 2,
+                    "cinema_name": "Cinestar Quốc Thanh",
+                    "cinema_address": "271 Nguyễn Trãi, P. Nguyễn Cư Trinh, Q.1, Tp. Hồ Chí Minh"
+                },
+                {
+                    "cinema_id": 4,
+                    "city_id": 2,
+                    "cinema_name": "Cinestar Hai Bà Trưng",
+                    "cinema_address": "135 Hai Bà Trưng, P. Bến Nghé, Q.1, Tp. Hồ Chí Minh"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,20 @@
+.theaters {
+	margin-bottom: 20px;
+	padding-bottom: 20px;
+	.v-list-item--active {
+		background: var(--blue-1) !important;
+		color: var(--white-1) !important;
+	}
+	.v-btn.btn-showtimes:hover {
+		background: rgba(#12263f, 1);
+		color: var(--white-1);
+	}
+	.btn-showtime-dates.v-btn.v-btn--active {
+		background: rgba(#bdcfe9, 1) !important;
+		color: #95aac9 !important;
+	}
+	.scrolling {
+		max-height: 750px;
+		overflow-y: auto;
+	}
+}

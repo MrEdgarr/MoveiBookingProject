@@ -1,0 +1,264 @@
+{
+    "rooms": [
+        {
+            "id": 1,
+            "cinemaId": 1,
+            "room_name": "ROOM 1"
+        },
+        {
+            "id": 2,
+            "cinemaId": 1,
+            "room_name": "ROOM 2"
+        },
+        {
+            "id": 3,
+            "cinemaId": 1,
+            "room_name": "ROOM 3"
+        },
+        {
+            "id": 4,
+            "cinemaId": 1,
+            "room_name": "ROOM 4"
+        },
+        {
+            "id": 5,
+            "cinemaId": 1,
+            "room_name": "ROOM 5"
+        },
+        {
+            "id": 6,
+            "cinemaId": 2,
+            "room_name": "ROOM 1"
+        },
+        {
+            "id": 7,
+            "cinemaId": 2,
+            "room_name": "ROOM 2"
+        },
+        {
+            "id": 8,
+            "cinemaId": 2,
+            "room_name": "ROOM 3"
+        },
+        {
+            "id": 9,
+            "cinemaId": 2,
+            "room_name": "ROOM 4"
+        },
+        {
+            "id": 10,
+            "cinemaId": 2,
+            "room_name": "ROOM 5"
+        },
+        {
+            "id": 11,
+            "cinemaId": 3,
+            "room_name": "ROOM 1"
+        },
+        {
+            "id": 12,
+            "cinemaId": 3,
+            "room_name": "ROOM 2"
+        },
+        {
+            "id": 13,
+            "cinemaId": 3,
+            "room_name": "ROOM 3"
+        },
+        {
+            "id": 14,
+            "cinemaId": 3,
+            "room_name": "ROOM 4"
+        },
+        {
+            "id": 15,
+            "cinemaId": 3,
+            "room_name": "ROOM 5"
+        },
+        {
+            "id": 16,
+            "cinemaId": 4,
+            "room_name": "ROOM 1"
+        },
+        {
+            "id": 17,
+            "cinemaId": 4,
+            "room_name": "ROOM 2"
+        },
+        {
+            "id": 18,
+            "cinemaId": 4,
+            "room_name": "ROOM 3"
+        },
+        {
+            "id": 19,
+            "cinemaId": 4,
+            "room_name": "ROOM 4"
+        },
+        {
+            "id": 20,
+            "cinemaId": 4,
+            "room_name": "ROOM 5"
+        },
+        {
+            "id": 21,
+            "cinemaId": 5,
+            "room_name": "ROOM 1"
+        },
+        {
+            "id": 22,
+            "cinemaId": 5,
+            "room_name": "ROOM 2"
+        },
+        {
+            "id": 23,
+            "cinemaId": 5,
+            "room_name": "ROOM 3"
+        },
+        {
+            "id": 24,
+            "cinemaId": 5,
+            "room_name": "ROOM 4"
+        },
+        {
+            "id": 25,
+            "cinemaId": 5,
+            "room_name": "ROOM 5"
+        },
+        {
+            "id": 26,
+            "cinemaId": 6,
+            "room_name": "ROOM 1"
+        },
+        {
+            "id": 27,
+            "cinemaId": 6,
+            "room_name": "ROOM 2"
+        },
+        {
+            "id": 28,
+            "cinemaId": 6,
+            "room_name": "ROOM 3"
+        },
+        {
+            "id": 29,
+            "cinemaId": 6,
+            "room_name": "ROOM 4"
+        },
+        {
+            "id": 30,
+            "cinemaId": 6,
+            "room_name": "ROOM 5"
+        },
+        {
+            "id": 31,
+            "cinemaId": 7,
+            "room_name": "ROOM 1"
+        },
+        {
+            "id": 32,
+            "cinemaId": 7,
+            "room_name": "ROOM 2"
+        },
+        {
+            "id": 33,
+            "cinemaId": 7,
+            "room_name": "ROOM 3"
+        },
+        {
+            "id": 34,
+            "cinemaId": 7,
+            "room_name": "ROOM 4"
+        },
+        {
+            "id": 35,
+            "cinemaId": 7,
+            "room_name": "ROOM 5"
+        }
+    ]
+}
+{
+    "id": 1,
+    "city_name": "Hà Nội",
+    "cinemas": [
+      {
+        "id": 1,
+        "cinema_name": "Beta Mỹ Đình",
+        "cinema_address": "Tầng hầm B1, tòa nhà Golden Palace, Đường Mễ Trì, Phường Mễ Trì, Quận Nam Từ Liêm, Hà Nội",
+        "cityId": 1,
+        "lstMovie":[
+            {
+                "backdrop_path": "https://www.themoviedb.org/t/p/w1920_and_h800_multi_faces/9n2tJBplPbgR2ca05hS5CKXwP2c.jpg",
+                "genres": "Phim Hoạt Hình, Phim Phiêu Lưu, Phim Gia Đình, Phim Giả Tượng, Phim Hài",
+                "id": 502356,
+                "original_language": "en",
+                "original_title": "The Super Mario Bros. Movie",
+                "overview": "Câu chuyện về cuộc phiêu lưu của anh em Super Mario đến vương quốc Nấm.",
+                "popularity": 13700.561,
+                "poster_path": "https://www.themoviedb.org/t/p/w220_and_h330_face/gRlfFcpPdjREQ3lgeuAuB10gfbR.jpg",
+                "production_countries": "Japan, Hoa Kỳ",
+                "release_date": "2023-04-05",
+                "runtime": 92,
+                "spoken_languages": "English",
+                "title": "Anh Em Super Mario",
+                "video": "https://www.youtube.com/embed/TnGl01FkMMo",
+                "vote_average": 7.502,
+                "vote_count": 959,
+                "cens": "NC13",
+                "schedules": [
+                  {
+                    "id": 1,
+                    "movieId": 502356,
+                    "cinemaId": 1,
+                    "schedule_date": "2019-12-10",
+                    "schedule_start": "17:15:00",
+                    "schedule_end": "19:00:00"
+                  },
+                  {
+                    "id": 2,
+                    "movieId": 502356,
+                    "cinemaId": 1,
+                    "schedule_date": "2019-12-10",
+                    "schedule_start": "18:00:00",
+                    "schedule_end": "14:30:00"
+                  },
+                  {
+                    "id": 3,
+                    "movieId": 502356,
+                    "cinemaId": 1,
+                    "schedule_date": "2019-12-10",
+                    "schedule_start": "20:15:00",
+                    "schedule_end": "19:00:00"
+                  },
+                  {
+                    "id": 4,
+                    "movieId": 502356,
+                    "cinemaId": 1,
+                    "schedule_date": "2019-12-10",
+                    "schedule_start": "21:15:00",
+                    "schedule_end": "19:00:00"
+                  }
+                ]
+              },
+        ]
+      },
+      {
+        "id": 2,
+        "cinema_name": "Beta Thanh Xuân",
+        "cinema_address": "Tầng hầm B1, tòa nhà Golden West, Số 2, Lê Văn Thiêm, Thanh Xuân, Hà Nội",
+        "cityId": 1
+      },
+      {
+        "id": 3,
+        "cinema_name": "Beta Đan Phượng",
+        "cinema_address": "Tầng 2 Tòa nhà HHA, Khu Đô Thị XPHomes (Tân Tây Đô), Xã Tân Lập, Huyện Đan Phượng, TP Hà Nội ",
+        "cityId": 1
+      },
+      {
+        "id": 4,
+        "cinema_name": "Beta Giải Phóng",
+        "cinema_address": "Tầng 3, Imperial Plaza, 360 Giải Phóng, Phương Liệt, Thanh Xuân, Hà Nội",
+        "cityId": 1
+      }
+    ]
+  },
