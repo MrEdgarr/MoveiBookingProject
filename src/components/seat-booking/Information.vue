@@ -78,5 +78,5 @@ export default {
 }
 </script>
 <style lang="scss" scoped>
-@import "@/assets/seat-booking/Information.scss";
+// @import "@/assets/seat-booking/_Information.scss";
 </style>
