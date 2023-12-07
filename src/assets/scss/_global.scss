@@ -85,3 +85,19 @@ p {
 ::-webkit-scrollbar-track {
 	background: var(--white-2);
 }
+
+.disable-tab-transition {
+	overflow: unset !important;
+
+	.v-window__container {
+		block-size: auto !important;
+	}
+
+	.v-window-item:not(.v-window-item--active) {
+		display: none !important;
+	}
+
+	.v-window__container .v-window-item {
+		transform: none !important;
+	}
+}

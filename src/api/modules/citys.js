@@ -1,6 +1,6 @@
 import API from "../../api"
 
 export default {
-	getAll: () => API().get(`/citys`),
-	getDetail: (eventId) => API().get(`/citys/${eventId}`),
+	getAll: () => API().get(`/city`),
+	getDetail: (eventId) => API().get(`/city/${eventId}`),
 }

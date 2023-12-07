@@ -34,7 +34,7 @@
 					gradient="to top right, rgba(19,84,122,.2),
 		rgba(128,208,199,0.2)"
 					:src="item.movie_backdrop"
-					aspect-ratio="1"
+					aspect-ratio="2"
 					cover
 					max-height="800"
 				/>
@@ -100,6 +100,9 @@ export default {
 				}
 			})
 		},
+	},
+	mounted() {
+		console.log(this.slides)
 	},
 }
 </script>

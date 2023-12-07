@@ -159,7 +159,4 @@ export default {
 	},
 }
 </script>
-<style lang="scss">
-@import "../../assets/movie-detail/Detail.scss";
-
-</style>
+<style lang="scss"></style>

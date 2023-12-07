@@ -7,7 +7,11 @@
 				<v-tab :value="2"><h3>Sắp chiếu</h3></v-tab>
 			</v-tabs>
 			<VDivider class="mb-5" />
-			<v-window v-model="tabShowtimes" :disabled="true">
+			<v-window
+				v-model="tabShowtimes"
+				:disabled="true"
+				class="disable-tab-transition"
+			>
 				<v-window-item v-for="n in 2" :key="n" :value="n">
 					<Showtimes :movies="movieStore.movies" />
 				</v-window-item>

@@ -11,7 +11,7 @@ export const useMovieStore = defineStore("movie", {
 		async fetchAll() {
 			try {
 				const { data } = await AuthServices.getAll()
-				this.movies = data
+				this.movies = data.data
 			} catch (error) {
 				console.log(error)
 			}

@@ -3,10 +3,10 @@
 @use "scss/variables";
 
 // LAYOUT
-@use "layouts/TheFooter.scss";
+@use "_layouts/TheFooter.scss";
 
 // HOME
-@use "home/Carousel";
-@use "home/Showtime";
-@use "home/News";
-@use "home/Theaters";
+@use "_home/Carousel";
+@use "_home/Showtime";
+@use "_home/News";
+@use "_home/Theaters";

@@ -85,10 +85,11 @@ export default {
 	methods: {
 		isDataMovie(value) {},
 		async isShowDate(value) {
+			console.log(value);
 			try {
 				await this.scheduleStore.fetchList({
 					id: 6,
-					numberDay: urlencode(value.dayNumber + "/" + "2023"),
+					numberDay: urlencode(value.dayNumber),
 				})
 			} catch (error) {}
 		},

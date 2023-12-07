@@ -57,14 +57,14 @@
 				width: 80%;
 				height: 80%;
 				border-radius: 50%;
-				background: #081c22;
+				background: hsl(194, 62%, 8%);
 				z-index: 0;
 			}
 			span {
 				z-index: 9;
 				font-weight: bold;
 				color: var(--white-1);
-				font-size: 12px;
+				font-size: var(--tiny-font-size);
 				position: relative;
 				small {
 					position: absolute;

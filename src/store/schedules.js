@@ -19,6 +19,7 @@ export const useScheduleStore = defineStore("schedule", {
 		},
 		async fetchList(value) {
 			try {
+				console.log(value)
 				const { data } = await AuthServices.getListByCinemas(value)
 				this.scheduleList = data
 				console.log(data)

@@ -27,15 +27,15 @@
 						<div
 							class="progress-circular"
 							:style="{
-								background: `conic-gradient(
-								rgba(30, 213, 169) ${item.movie_vote_average * 36}deg,
-								rgba(30, 213, 169, 0.2) 0deg
-							)`,
+								background: `${
+									handleChart(item.movie_vote_average).color
+								}`,
 							}"
 						>
 							<span>
-								{{ handleChart(item.movie_vote_average) }}
-								<small>%</small>
+								{{
+									handleChart(item.movie_vote_average).medium
+								}}%
 							</span>
 						</div>
 					</div>
@@ -56,6 +56,7 @@ import { Swiper, SwiperSlide } from "swiper/vue"
 // import required modules
 import { Navigation } from "swiper"
 import "swiper/css/pagination"
+import { handleChart } from "@/utils/chart"
 
 export default {
 	props: {
@@ -70,14 +71,15 @@ export default {
 	},
 	data: () => ({
 		modules: [Navigation],
+		handleChart: handleChart,
 	}),
 	methods: {
-		handleChart(chart) {
-			if (chart) {
-				let base = 10 ** 1
-				return Math.round(chart * base)
-			}
-		},
+		// handleChart(chart) {
+		// 	if (chart) {
+		// 		let base = 10 ** 1
+		// 		return Math.round(chart * base)
+		// 	}
+		// },
 
 		handleClickDetail(value) {
 			this.$router.push(`/movie/${value.movie_id}/${value.movie_name}`)
